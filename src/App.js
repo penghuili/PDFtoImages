@@ -12,7 +12,7 @@ import store from './store';
 setHook('location', useLocation);
 setHook('dispatch', useDispatch);
 
-const theme = createTheme(apps.pdf37.color);
+const theme = createTheme(apps.MobilePDF.color);
 
 function App() {
   return (
